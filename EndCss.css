@@ -1,0 +1,392 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+#base{
+/*	width: 100%;*/
+	width: 1600px;
+	height: 4450px;
+	margin: 0 auto;
+	background-image:  url("img/giphy (1).gif"),url("img/koi.png");
+	background-size: 100%,cover;
+	background-attachment: fixed;
+	background-position: 100px 200px center center;
+	
+}
+
+.head{
+	width: 100%;
+	height: 230px;
+	background-image: url("img/menu.png");
+	background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.logo{
+	float: left;
+}
+.logo:hover{
+	transform: rotate(-20deg)
+}
+
+.log{
+	width: 200px;
+	margin: 50px 0 0 160px 
+}
+.menu{
+	float: right;
+	margin-right: 60px;
+}
+
+.menu ul li{
+
+	display: inline-block; 
+	margin-left: 50px;
+	margin-top: 50px;
+
+}
+.menu ul li a {
+	text-decoration: none;
+	color: #F4F1C8;
+	font-size: 25px;
+	display: block;
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+	background: rgba(92,166,207,0.81);
+	width: 160px;
+	height: 50px;
+	border-radius: 50%;
+	transform: rotate(-10deg)
+}
+.menu a:hover{
+	opacity: 0.8;
+	transform: rotate(30deg)
+}
+.work{
+	width: 310px;
+	height: 150px;
+	position: relative;
+	margin : 200px 0 0 50px;
+	background-image: url("img/h.png");
+	background-size: 90%;
+	background-repeat: no-repeat;
+	
+	
+}
+	
+.work a{
+	font-size: 45px;
+	position: absolute;
+	margin: 70px 0 0 70px;
+	color: #4D66AA;
+	display: block;
+	text-decoration: none;
+	font-family: 'Press Start 2P', cursive;
+	color: orange;
+}
+.work a:hover{
+	opacity: 0.8;
+}
+.pjb{
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+/*	justify-content: space-around;*/
+	display: inline-block;
+	margin-top: 100px;
+	margin-left: 100px;
+	
+}
+.pj{
+	width: 30%;
+	height: 470px;
+	margin: 20px
+}
+.hai:hover{
+opacity: 0.7;
+	transform: rotate(-10deg)
+}
+.mot:hover{
+	opacity: 0.7;
+	transform: rotate(10deg);
+}
+.ba:hover{
+	opacity: 0.7;
+	transform: rotate(5deg)
+}
+.boxpro{
+	width: 310px;
+	height: 150px;
+	background-image: url("img/h.png");
+	background-size: 90%;
+	background-repeat: no-repeat;
+	margin : 100px 0 0 50px;
+	
+}
+.boxpro a{
+	font-size: 45px;
+	margin: 70px 0 0 30px;
+	text-decoration: none;
+	position: absolute;
+	font-family: 'Press Start 2P', cursive;
+	color: orange;
+}
+.boxpro a:hover{
+	opacity: 0.7;
+}
+.profile{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 100px;
+}
+.fis{
+	width: 570px;
+	margin: 150px 0 0 40px;
+	animation: caxoay 2s infinite linear alternate ;	
+}
+
+.ca{
+	width: 100%;
+	height: 900px;
+	background-size: 40%;
+	background-repeat: no-repeat;
+	margin: 10px 0 0 70px;
+	background-image: url("img/giphy.gif");
+
+}
+
+.container {
+  width: 70%; /* Full width */
+  background-color: #ddd; /* Grey background */
+	margin-right: 100px;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+
+.skill{
+	float: right;
+	width: 45%;
+    margin-right:30px;
+	background-image: url("img/foder.png");
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 80px 0 0 0 ;
+	background-size: 90%;
+	height: 300px;
+	background-repeat: no-repeat;
+}
+.text{
+	width: 100%
+}
+.text ul li{
+	display: inline-block;
+	margin-left: 155px;
+	margin-top: 30px
+}
+.text ul li a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #F4F1C6;
+	font-family: 'Press Start 2P', cursive;
+	
+}
+.socia{
+	width: 310px;
+	height: 150px;
+	position: relative;
+	margin : 170px 0 0 50px;
+	background-image: url("img/h.png");
+	background-size: 90%;
+	background-repeat: no-repeat;
+	
+}
+	
+.socia a{
+	font-size: 45px;
+	position: absolute;
+	margin: 70px 0 0 30px;
+	color: #4D66AA;
+	display: block;
+	text-decoration: none;
+	font-family: 'Press Start 2P', cursive;
+	color: orange;
+}	
+.socia a:hover{
+	opacity: 0.8;
+}
+.Social{
+	width: 100%;
+	height: 500px;
+}
+.sobox{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.so{
+	width: 75%;
+	margin: 100px 0 0 100px;
+	padding: 20px;
+	background: rgba(209,169,124,0.81);
+	border-radius: 10%
+}
+.one:hover{
+	height: 260px;
+	margin-left: 160px;
+	opacity: 0.7;
+}
+.two:hover{
+	height: 280px;
+	opacity: 0.7;
+}
+@keyframes caxoay{
+	from{
+		transform: rotate(-30deg)
+	}
+	to{
+		transform: rotate(30deg)
+	}
+	
+}
+
+.inform{
+	float: right;
+	width: 45%;
+    margin-right:30px;
+	background-image: url("img/foder.png");
+	padding: 80px 0 0 0 ;
+	background-size: 90%;
+	height: 300px;
+	background-repeat: no-repeat;
+}
+
+.material-icons-outlined {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+.inform h2{
+	margin-left: 120px;
+	color: #FF6F3F
+}
+.inform a1{
+	margin-left: 160px;color: rgba(0,0,0,0.77);
+}
+.inform p{
+	margin-left: 160px;
+	margin-top: 5px;
+	color: rgba(0,0,0,0.73);
+}
+.inform h4{
+	margin-left: 160px;
+	color: rgba(180,80,82,0.82)
+}
+.inform span{
+	margin-right: 20px;
+}
+.mor a{
+	font-size: 45px;
+	position: absolute;
+	margin: 70px 0 0 50px;
+	color: #4D66AA;
+	display: block;
+	text-decoration: none;
+	font-family: 'Press Start 2P', cursive;
+	color: orange;
+}	
+.mor a:hover{
+	opacity: 0.8;
+}
+.mor{
+	width: 310px;
+	height: 150px;
+	position: relative;
+	margin : 170px 0 0 50px;
+	background-image: url("img/h.png");
+	background-size: 90%;
+	background-repeat: no-repeat;
+}
+.colla h{
+	margin-left: 200px;
+	color: rgba(248,229,201,1.00);
+	font-size: 25px;
+	font-family: 'Press Start 2P', cursive;
+	
+}
+.light{
+	margin-top: 60px
+}
+.item{
+	width: 90%;
+	height: 450px;
+	display: flex;
+	margin-top: 100px;
+	justify-content: space-around;
+	margin-left: 90px
+}
+.item img{
+	width: 90%;
+	height: 370px;
+}
+.mm:hover{
+	transform: rotate(20deg);
+	opacity: 0.8
+}
+.mh:hover{
+	transform: rotate(20deg);
+	opacity: 0.8
+}
+.mb:hover{
+	transform: rotate(20deg);
+	opacity: 0.8
+}
+.ft{
+	width: 100%;
+	height: 230px;
+	background-image: url("img/ft.png");
+	background-size: 100%;
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+}
+.ft h{
+	font-size: 50px;
+	color: antiquewhite;
+	font-family: 'Press Start 2P', cursive;
+}
+.thanks{
+	margin-top: 130px;
+}
